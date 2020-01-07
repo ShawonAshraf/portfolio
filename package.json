@@ -19,6 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "yarn run build && echo \"http://zen-visvesvaraya-26e11a.netlify.com/* http://www.shawonashraf.com/:splat 301!\" >> build/_redirect",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
