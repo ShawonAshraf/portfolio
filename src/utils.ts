@@ -32,9 +32,7 @@ export const about = (): String => {
     return info
 };
 
-export const interests = ():String => {
-    return information.interestedIn;
-};
+export const interests = ():String => information.interestedIn;
 
 export const publications = ():String => {
     let pub:String = '';
@@ -47,6 +45,8 @@ export const publications = ():String => {
 
     return pub;
 };
+
+export const learning = (): String => information.nowLearning;
 
 export const contact = ():String => {
     return `\nemail - ${information.email}` +

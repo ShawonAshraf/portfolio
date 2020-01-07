@@ -7,6 +7,7 @@ import {
     contact,
     interests,
     publications,
+    learning,
 } from './utils';
 
 class App extends Component<any, any> {
@@ -30,6 +31,7 @@ class App extends Component<any, any> {
                         'about': () => about(),
                         'interests': () => interests(),
                         'publications': () => publications(),
+                        'learning': () => learning(),
                         'contact': () => contact(),
                     }}
                     msg='Type help (and press enter or return) to get started! You can also click on the green dot on top to maximize the console.'
