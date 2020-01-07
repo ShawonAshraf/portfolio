@@ -55,3 +55,8 @@ export const contact = ():String => {
         `\nmedium - ${information.medium}` +
         `\nflickr - ${information.flickr}`;
 };
+
+export const blog = ():String => {
+    window.open(information.blog, '_blank');
+    return information.blog;
+};
