@@ -27,6 +27,9 @@ class App extends Component<any, any> {
                     backgroundColor='black'
                     barColor='silver'
                     style={{ fontWeight: "bold", fontSize: "1em" }}
+                    prompt='yellow'
+                    promptSymbol='$'
+                    allowTabs={false}
                     commands={{
                         'help': () => help(),
                         'about': () => about(),
@@ -39,7 +42,12 @@ class App extends Component<any, any> {
                         'photography': () => takeTo('photography'),
                         'github': () => takeTo('github'),
                     }}
-                    msg='Type help (and press enter or return) to get started! You can also click on the green dot on top to maximize the console.'
+                    msg={
+                        '🧐 Shawon Ashraf\n' +
+                        '\n❓Type help (and press enter or return) to get started!\n'+
+                        '❓You can also click on the green dot on top to maximize the console.\n' +
+                        `⏱${new Date()}`
+                    }
                 />
             </div>
         );
