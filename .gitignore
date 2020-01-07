@@ -24,6 +24,8 @@ yarn-error.log*
 
 # intellij
 .idea
+.idea/workspace.xml
+
 
 # vs code
 .vscode
