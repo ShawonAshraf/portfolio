@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Terminal from 'terminal-in-react';
 
-import { about } from './utils';
+import { about, help } from './utils';
 
 class App extends Component<any, any> {
     render() {
@@ -21,8 +21,9 @@ class App extends Component<any, any> {
                     style={{ fontWeight: "bold", fontSize: "1em" }}
                     commands={{
                         'about': () => about(),
+                        'help': () => help(),
                     }}
-                    msg='Type about to get started!'
+                    msg='Type help (and press enter or return) to get started!'
                 />
             </div>
         );

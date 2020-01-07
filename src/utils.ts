@@ -11,3 +11,15 @@ export const about = (): String => {
 
     return info
 };
+
+export const help = ():String => {
+    let helpMenu:String = '';
+
+    helpMenu += '\nYou can use the following commands here.\nabout - shows basic information about myself\n' +
+        'contact - shows contact information\n' +
+        'blog - opens a new tab with my blog\n' +
+        'medium - opens a new tab with my blog\n';
+
+
+    return helpMenu;
+};
