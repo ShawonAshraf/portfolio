@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Terminal from 'terminal-in-react';
 
-import { about, help } from './utils';
+import { about, help, contact, interests } from './utils';
 
 class App extends Component<any, any> {
     render() {
@@ -20,10 +20,12 @@ class App extends Component<any, any> {
                     barColor='silver'
                     style={{ fontWeight: "bold", fontSize: "1em" }}
                     commands={{
-                        'about': () => about(),
                         'help': () => help(),
+                        'about': () => about(),
+                        'interests': () => interests(),
+                        'contact': () => contact(),
                     }}
-                    msg='Type help (and press enter or return) to get started!'
+                    msg='Type help (and press enter or return) to get started! You can also click on the green dot on top to maximize the console.'
                 />
             </div>
         );
