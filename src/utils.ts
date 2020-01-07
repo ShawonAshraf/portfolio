@@ -1,6 +1,5 @@
 import * as information from './information.json';
 
-
 export const help = ():String => {
     let helpMenu:String = '';
 
@@ -8,7 +7,7 @@ export const help = ():String => {
         'about - shows basic information about myself\n' +
         'interests - shows my current research interests\n' +
         'publications - a list of my published research work\n' +
-        'learning - what I\'\m currently learning\n' +
+        'learning - what I\'m currently learning\n' +
         'contact - shows contact information\n' +
         'blog - opens a new tab with my blog\n' +
         'medium - opens a new tab with my blog\n' +
@@ -35,7 +34,19 @@ export const about = (): String => {
 
 export const interests = ():String => {
     return information.interestedIn;
-}
+};
+
+export const publications = ():String => {
+    let pub:String = '';
+
+    for (let i in information.publications) {
+        pub += `\n-\n` +
+            `${information.publications[i].title}\n` +
+            `${information.publications[i].link}\n`;
+    }
+
+    return pub;
+};
 
 export const contact = ():String => {
     return `\nemail - ${information.email}` +
@@ -44,4 +55,3 @@ export const contact = ():String => {
         `\nmedium - ${information.medium}` +
         `\nflickr - ${information.flickr}`;
 };
-

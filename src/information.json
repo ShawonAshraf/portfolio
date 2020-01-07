@@ -13,5 +13,15 @@
   "flickr": "https://www.flickr.com/photos/rockash93/",
   "email": "ashraf.shawon@ims.uni-stuttgart.de",
   "blog": "https://shawonashraf.github.io",
-  "medium": "https://medium.com/@shawonashraf"
+  "medium": "https://medium.com/@shawonashraf",
+  "publications": [
+    {
+      "title": "TV series recommendation using fuzzy inference system, K-Means clustering and adaptive neuro fuzzy inference system",
+      "link": "https://ieeexplore.ieee.org/abstract/document/8392994"
+    },
+    {
+      "title": "Fruit Image Classification Using Convolutional Neural Networks",
+      "link": "https://www.igi-global.com/article/fruit-image-classification-using-convolutional-neural-networks/236206"
+    }
+  ]
 }
