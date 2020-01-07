@@ -56,7 +56,28 @@ export const contact = ():String => {
         `\nflickr - ${information.flickr}`;
 };
 
-export const blog = ():String => {
-    window.open(information.blog, '_blank');
-    return information.blog;
+export const takeTo = (key:string):string => {
+    let url:string = '';
+
+    switch (key) {
+        case 'blog':
+            url = information.blog;
+            break;
+        case 'medium':
+            url = information.medium;
+            break;
+        case 'photography':
+            url = information.flickr;
+            break;
+        case 'github':
+            url = information.github;
+            break;
+        default:
+            break;
+    }
+
+
+    window.open(url, '_blank');
+    return url;
 };
+

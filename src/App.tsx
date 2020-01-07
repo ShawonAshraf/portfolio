@@ -8,7 +8,7 @@ import {
     interests,
     publications,
     learning,
-    blog
+    takeTo,
 } from './utils';
 
 class App extends Component<any, any> {
@@ -34,7 +34,10 @@ class App extends Component<any, any> {
                         'publications': () => publications(),
                         'learning': () => learning(),
                         'contact': () => contact(),
-                        'blog': () => blog(),
+                        'blog': () => takeTo('blog'),
+                        'medium': () => takeTo('medium'),
+                        'photography': () => takeTo('photography'),
+                        'github': () => takeTo('github'),
                     }}
                     msg='Type help (and press enter or return) to get started! You can also click on the green dot on top to maximize the console.'
                 />
