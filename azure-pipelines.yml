@@ -17,5 +17,5 @@ steps:
 
 - script: |
     yarn install
-    yarn run test
-  displayName: 'yarn install, test'
+    yarn run azure-pl
+  displayName: 'yarn install, azure pipeline'
