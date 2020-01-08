@@ -11,7 +11,7 @@ import {
     takeTo,
 } from './utils';
 
-class App extends Component<any, any> {
+class App extends Component<{}, {}> {
     render() {
         return (
             <div
