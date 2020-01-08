@@ -25,6 +25,9 @@ accordingly.
 # dev mode with hot reload
 yarn run start
 
+# important, run tests
+yarn run test
+
 # create a production build
 yarn run build
 ```
