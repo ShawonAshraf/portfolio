@@ -43,7 +43,7 @@ class App extends Component<{}, {}> {
                         'github': () => takeTo('github'),
                     }}
                     msg={
-                        '🧐 Shawon Ashraf\n' +
+                        '🧐 Shawon Ashraf\nInstitut für Maschinelle Sprachverarbeitung\nUniverstiät Stuttgart\n' +
                         '\n❓Type help (and press enter or return) to get started!\n'+
                         '❓You can also click on the green dot on top to maximize the console.\n' +
                         `⏱${new Date()}`
