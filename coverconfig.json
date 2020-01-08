@@ -2,7 +2,7 @@
   "enabled": true,
   "relativeSourcePath": "./src",
   "relativeCoverageDir": "./coverage",
-  "ignorePatterns": ["**/node_modules/**"],
+  "ignorePatterns": ["**/node_modules/**", "**/serviceWorker.ts"],
   "includePid": false,
   "reports": ["json", "html", "lcov"],
   "verbose": false
