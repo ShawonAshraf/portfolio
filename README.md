@@ -5,6 +5,7 @@
 [![DeepScan grade](https://deepscan.io/api/teams/4763/projects/8685/branches/108708/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=4763&pid=8685&bid=108708)
 [![codecov](https://codecov.io/gh/ShawonAshraf/portfolio/branch/master/graph/badge.svg?token=Sy2TzKXug4)](https://codecov.io/gh/ShawonAshraf/portfolio)
 [![Build Status](https://travis-ci.com/ShawonAshraf/portfolio.svg?branch=master)](https://travis-ci.com/ShawonAshraf/portfolio)
+[![Build Status](https://dev.azure.com/shawonAshraf/portfolio/_apis/build/status/ShawonAshraf.portfolio?branchName=master)](https://dev.azure.com/shawonAshraf/portfolio/_build/latest?definitionId=1&branchName=master)
 
 > My portfolio site
 
