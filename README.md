@@ -4,6 +4,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/shawonashraf/portfolio/badge)](https://www.codefactor.io/repository/github/shawonashraf/portfolio)
 [![DeepScan grade](https://deepscan.io/api/teams/4763/projects/8685/branches/108708/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=4763&pid=8685&bid=108708)
 [![codecov](https://codecov.io/gh/ShawonAshraf/portfolio/branch/master/graph/badge.svg?token=Sy2TzKXug4)](https://codecov.io/gh/ShawonAshraf/portfolio)
+[![Build Status](https://travis-ci.com/ShawonAshraf/portfolio.svg?branch=master)](https://travis-ci.com/ShawonAshraf/portfolio)
 
 > My portfolio site
 
