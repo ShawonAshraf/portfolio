@@ -53,7 +53,8 @@ export const contact = ():String => {
         `\ngithub - ${information.github}` +
         `\nblog - ${information.blog}` +
         `\nmedium - ${information.medium}` +
-        `\nflickr - ${information.flickr}`;
+        `\nflickr - ${information.flickr}` + 
+        `\ntwitter - ${information.twitter}`;
 };
 
 export const takeTo = (key:string):string => {
