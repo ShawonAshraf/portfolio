@@ -54,7 +54,8 @@ export const contact = ():String => {
         `\nblog - ${information.blog}` +
         `\nmedium - ${information.medium}` +
         `\nflickr - ${information.flickr}` + 
-        `\ntwitter - ${information.twitter}`;
+        `\ntwitter - ${information.twitter}` +
+        `\nacm-vcard - ${information.acm_vcard}`;
 };
 
 export const takeTo = (key:string):string => {
