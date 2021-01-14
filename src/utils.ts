@@ -24,7 +24,7 @@ export const about = (): String => {
     info += `\nHi! I'm ${information.name}.\n` +
         `I'm currently doing my ${information.msDegree} at ${information.msUni}. ` +
         `Previously I completed my ${information.bsDegree} from ${information.bsUni}. ` +
-        `I'm a native of ${information.hometown}, currently living in Stuttgart.\n` +
+        `I'm a native of ${information.hometown}.\n` +
         '\n\n' +
         `My hobbies include(but not limited to!) ${information.hobbies}.\n` +
         `Music? ${information.music}.`;
