@@ -10,7 +10,7 @@
 > My portfolio site
 
 ## Live Link
-https://shawonashraf.netlify.app/
+https://shawonashraf.com/
 
 ## Using as your portfolio
 Edit the `information.json` and `utils.ts` files as you require. Make sure to update the commands in `App.tsx`
