@@ -142,5 +142,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@babel/helper-builder-react-jsx": "^7.10.4",
+    "@babel/plugin-transform-react-jsx": "^7.12.12"
   }
 }
