@@ -8,7 +8,7 @@ before_install:
     fi
 
 node_js:
-  - "10"
+  - "14"
 
 script:
   - yarn run test
