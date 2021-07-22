@@ -5,8 +5,8 @@
   "msDegree": "MSc in Computational Linguistics",
   "bsDegree": "BSc in Computer Science and Engineering",
   "hometown": "Dhaka, Bangladesh",
-  "interestedIn": "Distributional Semantics, Text Mining, Emootion Analysis in Text, Information Retreival",
-  "nowLearning": "How to be a good human being",
+  "interestedIn": "Distributional Semantics, Text Mining, Machine Translation, Transformers, Visual Question Answering",
+  "nowLearning": "Deutsch, Pytorch, R and everything new I come accross everday.",
   "hobbies": "Photography, Gaming, Books",
   "music": "Hard Rock, Heavy Metal, Classical",
   "github": "https://github.com/ShawonAshraf",
@@ -16,8 +16,7 @@
   "medium": "https://medium.com/@shawonashraf",
   "twitter": "https://twitter.com/shawon_ashraf",
   "acm_vcard": "http://member.acm.org/~shawonashraf",
-  "publications": [
-    {
+  "publications": [{
       "title": "TV series recommendation using fuzzy inference system, K-Means clustering and adaptive neuro fuzzy inference system",
       "link": "https://ieeexplore.ieee.org/abstract/document/8392994"
     },
