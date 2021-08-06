@@ -1,7 +1,7 @@
 import * as information from './information.json';
 
-export const help = ():String => {
-    let helpMenu:String = '';
+export const help = (): String => {
+    let helpMenu: String = '';
 
     helpMenu += '\nYou can use the following commands here.\n\n' +
         'about - shows basic information about myself\n' +
@@ -19,7 +19,7 @@ export const help = ():String => {
 };
 
 export const about = (): String => {
-    let info:String = '';
+    let info: String = '';
 
     info += `\nHi! I'm ${information.name}.\n` +
         `I'm currently doing my ${information.msDegree} at ${information.msUni}. ` +
@@ -32,10 +32,10 @@ export const about = (): String => {
     return info
 };
 
-export const interests = ():String => information.interestedIn;
+export const interests = (): String => information.interestedIn;
 
-export const publications = ():String => {
-    let pub:String = '';
+export const publications = (): String => {
+    let pub: String = '';
 
     for (let i in information.publications) {
         pub += `\n-\n` +
@@ -48,18 +48,17 @@ export const publications = ():String => {
 
 export const learning = (): String => information.nowLearning;
 
-export const contact = ():String => {
+export const contact = (): String => {
     return `\nemail - ${information.email}` +
         `\ngithub - ${information.github}` +
         `\nblog - ${information.blog}` +
         `\nmedium - ${information.medium}` +
-        `\nflickr - ${information.flickr}` + 
-        `\ntwitter - ${information.twitter}` +
-        `\nacm-vcard - ${information.acm_vcard}`;
+        `\nflickr - ${information.flickr}` +
+        `\ntwitter - ${information.twitter}`;
 };
 
-export const takeTo = (key:string):string => {
-    let url:string = '';
+export const takeTo = (key: string): string => {
+    let url: string = '';
 
     switch (key) {
         case 'blog':
